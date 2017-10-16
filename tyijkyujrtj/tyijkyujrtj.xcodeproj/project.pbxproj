@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00374D741F949EF900F8215B /* sdfgfdg.m in Sources */ = {isa = PBXBuildFile; fileRef = 00374D731F949EF900F8215B /* sdfgfdg.m */; };
 		007661151F90ABF000C00DC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 007661141F90ABF000C00DC8 /* AppDelegate.m */; };
 		007661181F90ABF000C00DC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007661171F90ABF000C00DC8 /* ViewController.m */; };
 		0076611B1F90ABF000C00DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007661191F90ABF000C00DC8 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00374D721F949EF900F8215B /* sdfgfdg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdfgfdg.h; sourceTree = "<group>"; };
+		00374D731F949EF900F8215B /* sdfgfdg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sdfgfdg.m; sourceTree = "<group>"; };
 		007661101F90ABF000C00DC8 /* tyijkyujrtj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tyijkyujrtj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007661131F90ABF000C00DC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		007661141F90ABF000C00DC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00374D711F949EE600F8215B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				00374D721F949EF900F8215B /* sdfgfdg.h */,
+				00374D731F949EF900F8215B /* sdfgfdg.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		007661071F90ABF000C00DC8 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +117,7 @@
 				007661141F90ABF000C00DC8 /* AppDelegate.m */,
 				007661161F90ABF000C00DC8 /* ViewController.h */,
 				007661171F90ABF000C00DC8 /* ViewController.m */,
+				00374D711F949EE600F8215B /* New Group */,
 				007661191F90ABF000C00DC8 /* Main.storyboard */,
 				0076611C1F90ABF000C00DC8 /* Assets.xcassets */,
 				0076611E1F90ABF000C00DC8 /* LaunchScreen.storyboard */,
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				007661181F90ABF000C00DC8 /* ViewController.m in Sources */,
+				00374D741F949EF900F8215B /* sdfgfdg.m in Sources */,
 				007661231F90ABF000C00DC8 /* main.m in Sources */,
 				007661151F90ABF000C00DC8 /* AppDelegate.m in Sources */,
 			);
